@@ -46,8 +46,7 @@ export default function Home() {
                   href="#"
                   onClick={onButtonClick}
                 >
-                  {" "}
-                  Download Resume{" "}
+                  Download Resume
                 </a>
               </li>
             </ul>
