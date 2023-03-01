@@ -46,7 +46,8 @@ export default function Home() {
                   href="#"
                   onClick={onButtonClick}
                 >
-                  Download Resume
+                  {" "}
+                  Download CV{" "}
                 </a>
               </li>
             </ul>
