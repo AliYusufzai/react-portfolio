@@ -131,14 +131,20 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                alt={"React Recipe app"}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a
+                href="https://react-wildfire-tracker-xi.vercel.app/"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <Image
+                  src={web4}
+                  alt={"React Wildfire Tracker app"}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </section>
